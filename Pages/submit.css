@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 *{
   margin: 0;
   padding: 0;
@@ -275,24 +276,12 @@ nav .content .links{
   border-radius: 5px; 
 }
 
-.form {
-    position: relative;
-    z-index: 1;
-    background: #48c9af77;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    
-  }
+
 
   body {
-    background: #76b852;
-    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-    background: -moz-linear-gradient(right, #76b852, #8DC26F);
-    background: -o-linear-gradient(right, #76b852, #8DC26F);
-    background: linear-gradient(to left, #76b852, #8DC26F);
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2019/03/windmill-in-farmland-sunset-view-4k_1551643793.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;      
@@ -303,6 +292,8 @@ nav .content .links{
   }
 
   .login-page {
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 360px;
     padding: 8% 0 0;
     margin: auto;
@@ -310,7 +301,7 @@ nav .content .links{
   }
 
   .form {
-    position: relative;
+    position: absolute;
     z-index: 1;
     background: #48c9af77;
     max-width: 360px;
@@ -321,17 +312,6 @@ nav .content .links{
     
   }
 
-  .form {
-    position: relative;
-    z-index: 1;
-    background: #48c9af77;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    
-  }
   .form input {
     font-family: FontAwesome, "Roboto", sans-serif;
     outline: 0;
@@ -391,4 +371,11 @@ nav .content .links{
   }
   .form .register-form {
     display: none;
+  }
+
+  .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  
   }
