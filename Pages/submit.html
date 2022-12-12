@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>About</title>
-  <link rel="stylesheet" href="about.css">
+  <title>Submit</title>
+  <link rel="stylesheet" href="submit.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
@@ -43,13 +43,24 @@
     </nav>
   </div>
    
-  <div class="image">
-  <img src="https://thumbs.dreamstime.com/b/indian-farmer-holding-crop-plant-his-wheat-field-indian-farmer-holding-crop-plant-his-wheat-field-123557695.jpg">
-  </div>
-  <div class="about-text">
-    <h2>About This Website</h2>
-    <h2>Aims And Features</h2>
-  </div>
+
+<div class="login-page">
+    <div class="form">
+        <form>
+            <lottie-player src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"  background="transparent"  speed="1"  style="justify-content: center;" loop  autoplay></lottie-player>
+            <input type="text" placeholder="&#xf007;  title"/>
+            <input type="text" id="land size" placeholder="&#xf007;  land size"/>
+            <input type="text" id="location" placeholder="&#xf097;  location"/>
+            <input type="number" id="price for lease per month" placeholder="&#xf007;  price of leace per month "/>
+            <input type="text" id="contact" placeholder="&#xf007;  contact "/>
+            <input type="file" id="img" name="img" accept="image/*">
+
+          </form>
+  
+      <form class="login-form">
+        <button type="button" onclick="window.location.href='home.html'">POST</button>
+      </form>
+    </div>
 
 </body>
 </html>
